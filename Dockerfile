@@ -1,5 +1,5 @@
 FROM tomcat:8.5.37-jre8
-MAINTAINER maha@gmail.com
+MAINTAINER sandeep@gmail.com
 RUN apt-get update
 ADD  target/mahaLogin-5.0.war /usr/local/tomcat/webapps/
 WORKDIR /usr/local/tomcat/webapps/
